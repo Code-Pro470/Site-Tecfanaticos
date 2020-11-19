@@ -37,10 +37,6 @@ body{
     outline: none !important;
 }
 #Ajuda{
-    /*position:fixed;
-    right: 97%;
-    top:97%;
-    margin: -2.5em;*/
     border: solid 1px rgb(25, 116, 252);
         border-radius: 0px 10px 0px 0px;
         position:fixed;
@@ -50,6 +46,15 @@ body{
         z-index: 100;
         margin: -2.5em;
 }
+.navbar-nav  div{
+    background-color: white;
+    height: 40px;
+    width: 2px;
+    display: flex;
+   align-items: center;
+   margin: 0px;
+}
+
 
 /*--------Início--------*/
 .container{
@@ -107,6 +112,9 @@ body{
         align-items:center;
         justify-content: center;
         margin-left: 125px;
+    }
+    .navbar-nav  div{
+        display: none;
     }
 }
 @media(max-width: 767px){
