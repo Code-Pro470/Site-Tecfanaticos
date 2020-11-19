@@ -45,6 +45,7 @@ body{
         top: 100%;
         z-index: 100;
         margin: -2.5em;
+        background-color: rgba(255, 255, 255, 0.747);
 }
 .navbar-nav  div{
     background-color: white;
