@@ -47,6 +47,10 @@ body{
         margin: -2.5em;
         background-color: rgba(255, 255, 255, 0.747);
 }
+#Ajuda a:hover{
+    text-decoration: none;
+    text-transform: none;
+}
 .navbar-nav  div{
     background-color: white;
     height: 40px;
@@ -449,6 +453,18 @@ body{
     border-radius: 2px;
     background-image: linear-gradient( to right, #2C3E50, #4CA1AF);
 
+}
+.footer-box a{
+    transform: none;
+    text-decoration: none;
+    color: white;
+}
+.footer-box a:hover{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.footer-box a::after{
+    color: whitesmoke;
 }
 .form-control{
     margin-bottom:20px;
