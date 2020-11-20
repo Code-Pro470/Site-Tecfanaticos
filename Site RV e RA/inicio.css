@@ -45,7 +45,7 @@ body{
         top: 100%;
         z-index: 100;
         margin: -2.5em;
-        background-color: rgba(255, 255, 255, 0.747);
+        background-color: rgba(255, 255, 255, 0.801);
 }
 #Ajuda a:hover{
     text-decoration: none;
@@ -59,7 +59,6 @@ body{
    align-items: center;
    margin: 0px;
 }
-
 
 /*--------Início--------*/
 .container{
@@ -395,13 +394,13 @@ body{
     margin-bottom: 20px;
 }
 .victor{
-    margin-top: 5px;
+    margin-top: 4px;
 }
 .leonardo{
-    margin-top: 5px;
+    margin-top: 4px;
 }
 .matheus{
-    margin-top: 5px;
+    margin-top: 3.5px;
 }
 .lucas{
     margin-top: 5px;
