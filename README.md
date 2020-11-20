@@ -1,2 +1,2 @@
 # Site-Tecfanaticos
-Site tecfanáticos sobre Realidade Virtual e Realidade Aumentada
+Trabalho Interdisciplinar sobre áreas Tecnologia. Construção de Site sobre Realidade Virtual e Realidade Aumentada.
