@@ -176,20 +176,27 @@ body{
 }
 
 #Pfinal {
-    margin-top: 65px;
+    margin-top: 50px;
     justify-content: right;
+    text-align: center;
 }
 h2{
     font-size: auto;
 }
+
 .container .anime .videoRVeRA{
     height:315px;
+    margin-left: 25%;
+    margin-top: 30px;
     float:center;
     align-items: center;
     justify-content: center;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 30px;
+    text-align:center;
+
+}
+.container .anime h3{
+    text-align:center;
+    margin-top: 40px;
 }
 
 @media(max-width:1196px){
@@ -219,6 +226,15 @@ h2{
     }
     .container .img06{
         height: 250px;
+    }
+    .container .anime .videoRVeRA{
+        height:315px;
+        margin-left: 20%;
+        margin-top: 30px;
+        float:center;
+        align-items: center;
+        justify-content: center;
+        text-align:center;
     }
 }
 @media(max-width:991px){
@@ -263,6 +279,14 @@ h2{
     .container #img10{
         height: 200px;
     }
+    .container .anime .videoRVeRA{
+        height:315px;
+        margin-left: 10%;
+        margin-top: 30px;
+        float:center;
+        align-items: center;
+        justify-content: center;
+        text-align:center;
 }
 @media(max-width:767px){
     .container h1{
@@ -376,15 +400,13 @@ h2{
         align-items: center;
         justify-content: center;
         margin-left: 5%;
-        margin-right: 5%;
         margin-top: 30px;
     }
 }
 @media(max-width:580px){
     .container .img08{
         float:none;
-        margin-left: auto;
-        margin-right: auto;
+        margin: 10%;
         display:block;
         float:none;
         justify-content: center;
@@ -393,8 +415,7 @@ h2{
     }
     .container .img09{
         float:none;
-        margin-left: auto;
-        margin-right: auto;
+        margin:10%;
         display:block;
         float:none;
         justify-content: center;
@@ -409,8 +430,18 @@ h2{
         float:center;
         align-items: center;
         justify-content: center;
-        margin-left: 5%;
-        margin-right: 5%;
+        margin: 10%;
+        margin-top: 30px;
+    }
+}
+@media(max-wdith: 535px){
+    .container .anime .videoRVeRA{
+        height:315px;
+        width:420px;
+        float:center;
+        align-items: center;
+        justify-content: center;
+        margin: none;
         margin-top: 30px;
     }
 }
@@ -421,8 +452,7 @@ h2{
         float:center;
         align-items: center;
         justify-content: center;
-        margin-left: 5%;
-        margin-right: 5%;
+        margin:none;
         margin-top: 30px;
     }
 }
@@ -692,7 +722,7 @@ footer img{
     margin: 8px 0 0 8px;
 }
 /*animações scroll*/
-
+}
 .anime{
     opacity: 0;
     transform: translate3d(-100px,0,0);
