@@ -417,6 +417,9 @@ body{
 #perfis .Perfil3{
     height: 215px;
 }
+#about-us .anime figure{
+    max-width: 50%;
+}
 
 /*--------Footer------------*/
 #footer{
